@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
 public class Adivina {
 
 	/**
-	 * 
+	 * Main 
 	 * @param args
 	 * @throws IOException 
 	 */
@@ -24,9 +24,9 @@ public class Adivina {
 	{
 		int primero = 0;
 		int segundo = 99;
+		int num = 0;
 		String palabra = "";
 		boolean fin = false;
-		int num = 0;
 		boolean encontrado = false;
 		
 		int numero = (int) Math.floor(Math.random()*(primero-segundo+1)+segundo);
@@ -63,13 +63,8 @@ public class Adivina {
 		}
 		if(encontrado == false)
 		{
-			System.out.println("Mas suerte para la proxima");
+			System.out.println("Mas suerte para la proxima!");
 		}
-		
-		
-		
-		
-		
 	}
 
 }
