@@ -4,6 +4,15 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * Juego de adivinar el numero generado aleatoriamente
+ * por el computador
+ * 
+ * 
+ * @author Daniel Bernal
+ *
+ */
+
 public class Adivina {
 
 	/**
@@ -11,8 +20,8 @@ public class Adivina {
 	 * @param args
 	 * @throws IOException 
 	 */
-	public static void main(String[] args) throws IOException {
-
+	public static void main(String[] args) throws IOException 
+	{
 		int primero = 0;
 		int segundo = 99;
 		String palabra = "";
